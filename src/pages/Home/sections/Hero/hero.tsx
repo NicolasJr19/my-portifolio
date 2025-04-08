@@ -33,7 +33,7 @@ const Hero = () => {
                     <Grid container spacing={2}>
                         <Grid size={{xs: 12, md: 5}}>
                             <Box position="relative">
-                                <Box position="absolute" width="150%" top={-100} right={0}>
+                                <Box position="absolute" width="140%" top={-150} right={0}>
                                     <AnimatedBackground></AnimatedBackground>
                                 </Box>
                                 <Box position={"relative"} textAlign="center" alignItems="center">
@@ -47,13 +47,13 @@ const Hero = () => {
                             
                             <Grid container  display="flex" justifyContent="center" spacing={3} pt={5}>
                                 <Grid size={{xs: 12, md: 4}} display="flex" justifyContent="center">
-                                    <StyledButton>
+                                    <StyledButton onClick={()=> console.log("download")}>
                                         <DownloadIcon/>
                                         <Typography>Download CV</Typography>
                                     </StyledButton>
                                 </Grid>
                                 <Grid size={{xs: 12, md: 4}} display="flex" justifyContent="center">
-                                        <StyledButton>
+                                        <StyledButton onClick={()=> console.log("contact")}>
                                             <EmailIcon/>
                                             <Typography>Contact Me</Typography>
                                         </StyledButton>
