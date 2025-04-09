@@ -5,6 +5,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import theme from "../../../../theme";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
+import CV from "../../../../assets/pdfs/Curriculo.pdf"
 
 const Hero = () => {
     const StyledHero = styled("div")(({theme})=>({
@@ -25,6 +26,27 @@ const Hero = () => {
         border: `1px solid ${theme.palette.primary.contrastText}`,
         borderRadius: "50%"
     }))
+
+    const handleDownload = () => {
+        console.log("download")
+
+        //criar um link
+        const link = document.createElement('a')
+        link.href = CV
+        link.download = 'Curriculo.pdf'
+        document.body.appendChild(link)
+        link.click()
+        document.body.removeChild(link)
+    }
+
+    const handleEmail = () => {
+        const emailAdress = 'nicolasjn22@gmail.com'
+        const subject = 'Subject'
+        const body = "Hello! I saw your portifolio..."
+
+        const mailtoLink = `mailto:${emailAdress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+        window.open(mailtoLink)
+    }
 
     return (
         <>
@@ -47,18 +69,16 @@ const Hero = () => {
                             
                             <Grid container  display="flex" justifyContent="center" spacing={3} pt={5}>
                                 <Grid size={{xs: 12, md: 4}} display="flex" justifyContent="center">
-                                    <StyledButton onClick={()=> console.log("download")}>
+                                    <StyledButton onClick={()=> handleDownload()}>
                                         <DownloadIcon/>
                                         <Typography>Download CV</Typography>
                                     </StyledButton>
                                 </Grid>
                                 <Grid size={{xs: 12, md: 4}} display="flex" justifyContent="center">
-                                        <StyledButton onClick={()=> console.log("contact")}>
+                                        <StyledButton onClick={()=> handleEmail()}>
                                             <EmailIcon/>
                                             <Typography>Contact Me</Typography>
                                         </StyledButton>
-
-                                        {/* tempo do video 47:09*/}
                                 </Grid>
                             </Grid>
                         </Grid>
