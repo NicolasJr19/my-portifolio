@@ -3,6 +3,11 @@ import { Container, styled } from "@mui/material";
 import React from "react";
 import ProjectCard, { ProjectCardProps } from "../../../../components/ProjectCard/ProjectCard";
 import AnimationComponent from "../../../../components/AnimationComponet/AnimationComponent";
+import Agenda from "../../../../assets/images/agenda.jpg"
+import GamerStore from "../../../../assets/images/gamerStore.jpg"
+import Instalike from "../../../../assets/images/instalike.jpg"
+import Pizzaria from "../../../../assets/images/pizzaria.jpg"
+import Portifolio from "../../../../assets/images/portifolio.jpg"
 
 const Projects: React.FC = () => {
     const StyledExperience = styled("div")(({theme})=>({
@@ -13,7 +18,7 @@ const Projects: React.FC = () => {
         {
             title: "My Portifolio",
             subtitle: "Abr 2025",
-            srcImg: "/src/assets/images/portifolio.png"
+            srcImg: {Portifolio}
             description: "Meu portifolio pessoal, desenvolvido para divulgações!",
             technologies: "Technologies: Typescript, React, Material UI",
             websiteURL: "https://github.com/NicolasJr19/my-portifolio",
@@ -23,7 +28,7 @@ const Projects: React.FC = () => {
         {
             title: "Pizzaria Proz",
             subtitle: "Mar 2025 - Abr 2025",
-            srcImg: "/src/assets/images/pizzaria.png",
+            srcImg: Pizzaria,
             description: "Projeto inicial em HTML, CSS e Javascrip, sobre pizzaria no curso técnico na Proz Educação, realizado em conjunto com meu grupo de estudos.",
             technologies: "Technologies: HTML, CSS, Javascript",
             websiteURL: "https://github.com/NicolasJr19/PizzariaProz-Final",
@@ -33,7 +38,7 @@ const Projects: React.FC = () => {
         {
             title: "GamerStore",
             subtitle: "Out 2024",
-            srcImg: "/src/assets/images/gamerStore.png",
+            srcImg: GamerStore,
             description: "Projeto inicial de uma loja dinâmica de Games, realizado durante a Imersão Dev, promovido pela instituição Formação Dev",
             technologies: "Technologies: React, Next, Typescript",
             websiteURL: "https://github.com/NicolasJr19/Imersao_Dev",
@@ -43,7 +48,7 @@ const Projects: React.FC = () => {
         {
             title: "AgendaJS",
             subtitle: "Mar 2025",
-            srcImg: "/src/assets/images/agenda.png",
+            srcImg: Agenda,
             description: "Agenda dinâminca inicial, desenvolvida a partir das aulas ministradas por Bruno Pinho no canal CFBCursos",
             technologies: "Technologies: Javascript, HTML, CSS, MySQL",
             websiteURL: "https://github.com/NicolasJr19/AgendaJS",
@@ -53,7 +58,7 @@ const Projects: React.FC = () => {
         {
             title: "Instalike",
             subtitle: "Nov 2024",
-            srcImg: "/src/assets/images/instalike.png",
+            srcImg: Instalike,
             description: "Projeto inicial de uma página de rede social, realizado durante a Imersão da Alura",
             technologies: "Technologies: Typescript, Next, CSS, HTML, MongoDB",
             websiteURL: "https://github.com/NicolasJr19/Projeto_Alura",
