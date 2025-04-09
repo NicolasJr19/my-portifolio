@@ -1,4 +1,4 @@
-import { Box, Card, colors, Container, Grid, styled, Typography } from "@mui/material"
+import { Box, Card, Container, Grid, styled, Typography } from "@mui/material"
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 import AnimationComponent from "../../../../components/AnimationComponet/AnimationComponent"
 import SchoolIcon from '@mui/icons-material/School';
