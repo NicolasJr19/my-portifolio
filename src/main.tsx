@@ -1,5 +1,4 @@
-import React, { StrictMode } from 'react'
-import ReactDOM from 'react-dom'
+import { StrictMode } from 'react'
 import App from './App.tsx'
 import { CssBaseline, ThemeProvider } from '@mui/material'
 import theme from './theme.ts'
