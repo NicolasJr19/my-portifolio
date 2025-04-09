@@ -31,7 +31,7 @@ const About: React.FC = ()=>{
                                 <WorkspacePremiumIcon/>
                                 <Typography textAlign="center" fontWeight={600}>Experience</Typography>
                                 <Typography textAlign="center">2+ months</Typography>
-                                <Typography textAlign="center">FullStack Development</Typography>
+                                <Typography textAlign="center">FullStack Developer Trainee</Typography>
                             </StyleCard>
                         </AnimationComponent>
                     </Grid>
@@ -47,19 +47,20 @@ const About: React.FC = ()=>{
                     </Grid>
                 </Grid>
                 <Box pb={1}>
-                    <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Cras porta semper velit vel rutrum.
-                        Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris.
-                        Phasellus a ultrices elit.
-                        Curabitur ut diam eu orci auctor pretium.
-                        Nullam ultricies erat quam, eget porta velit vehicula sit amet.
-                        Nullam sodales iaculis metus, sed vestibulum nisl vulputate at.
-                        Integer in pulvinar libero.
-                        Donec ornare est quis tortor varius efficitur.
-                        Maecenas sed erat quis felis facilisis pellentesque.
-                        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id felis convallis, luctus lorem eget, varius dolor.
-                    </Typography>
+                <Typography>
+                    Tenho atualmente 23 anos. Gosto de filmes, séries, HQ's, games, música e futebol. Na área da música toco guitarra, violão, teclado.
+                    Possuo ensino médio completo, técnico em Desenvolvimento de Sistemas e atualmente estou cursando superior/tecnólogo Análise e Desenvolvimento de Sistemas.
+                </Typography><br/>
+                <Typography>
+                    Já trabalhei como aprendiz na área de supermercados e desenho mecânico, fazendo juntamente cursos de aprendizagem como Operador de Supermercado e Desenho Mecânico.
+                    Meu primeiro contato com desenvolvimento foi aos 13 anos, quando fiz um curso rápido de Desenvolvimento de Aplicativo/Jogo, pelo Cebrac.
+                </Typography><br/>
+                <Typography>
+                    Iniciei como estagiário na Stefanini em março de 2020, onde até ser efetivado em 2022 e atuei como analista de suporte N1 até março de 2025. Em março de 2025 iniciei como estagiário como analista de tecnologia no SENAI Centro 4.0 em Contagem-MG, atuando com desenvolvimento em Javascript, React, Next, Typescript, SQL e outras linguagens, além de auxiliar com documentações, reuniões de propostas e levantamentos de requisitos.
+                </Typography><br/>
+                <Typography>
+                    Pretendo seguir carreira voltado para desenvolvimento de software e posteriormente me cursar em música.
+                </Typography>
                 </Box>
                 <hr/>
                 <Box id="skills" pt={1} mb={3}>

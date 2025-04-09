@@ -14,7 +14,7 @@ const Projects: React.FC = () => {
             title: "My Portifolio",
             subtitle: "Abr 2025",
             srcImg: "/src/assets/images/portifolio.png",
-            description: "Meu portifolio pessoal",
+            description: "Meu portifolio pessoal, desenvolvido para divulgações!",
             technologies: "Technologies: Typescript, React, Material UI",
             websiteURL: "https://github.com/NicolasJr19/my-portifolio",
             codeURL: "https://github.com/NicolasJr19/my-portifolio",
@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
             title: "Pizzaria Proz",
             subtitle: "Mar 2025 - Abr 2025",
             srcImg: "/src/assets/images/pizzaria.png",
-            description: "Projeto inicial sobre pizzaria no curso técnico na Proz Educação",
+            description: "Projeto inicial em HTML, CSS e Javascrip, sobre pizzaria no curso técnico na Proz Educação, realizado em conjunto com meu grupo de estudos.",
             technologies: "Technologies: HTML, CSS, Javascript",
             websiteURL: "https://github.com/NicolasJr19/PizzariaProz-Final",
             codeURL: "https://github.com/NicolasJr19/PizzariaProz-Final",
@@ -34,7 +34,7 @@ const Projects: React.FC = () => {
             title: "GamerStore",
             subtitle: "Out 2024",
             srcImg: "/src/assets/images/gamerStore.png",
-            description: "Projeto inicial de uma loja dinâmica de Games",
+            description: "Projeto inicial de uma loja dinâmica de Games, realizado durante a Imersão Dev, promovido pela instituição Formação Dev",
             technologies: "Technologies: React, Next, Typescript",
             websiteURL: "https://github.com/NicolasJr19/Imersao_Dev",
             codeURL: "https://github.com/NicolasJr19/Imersao_Dev",
@@ -44,7 +44,7 @@ const Projects: React.FC = () => {
             title: "AgendaJS",
             subtitle: "Mar 2025",
             srcImg: "/src/assets/images/agenda.png",
-            description: "Agenda dinâminca inicial",
+            description: "Agenda dinâminca inicial, desenvolvida a partir das aulas ministradas por Bruno Pinho no canal CFBCursos",
             technologies: "Technologies: Javascript, HTML, CSS, MySQL",
             websiteURL: "https://github.com/NicolasJr19/AgendaJS",
             codeURL: "https://github.com/NicolasJr19/AgendaJS",
@@ -52,10 +52,10 @@ const Projects: React.FC = () => {
 
         {
             title: "Instalike",
-            subtitle: "Mar 2025",
+            subtitle: "Nov 2024",
             srcImg: "/src/assets/images/instalike.png",
-            description: "Agenda dinâminca inicial",
-            technologies: "Technologies: Typescript, Next, CSS, HTML",
+            description: "Projeto inicial de uma página de rede social, realizado durante a Imersão da Alura",
+            technologies: "Technologies: Typescript, Next, CSS, HTML, MongoDB",
             websiteURL: "https://github.com/NicolasJr19/Projeto_Alura",
             codeURL: "https://github.com/NicolasJr19/Projeto_Alura",
         },
@@ -77,7 +77,7 @@ const Projects: React.FC = () => {
                                         subtitle={project.subtitle}
                                         srcImg={project.srcImg}
                                         description={project.description}
-                                        technologies={project.websiteURL}
+                                        technologies={project.technologies}
                                         websiteURL={project.websiteURL}
                                         codeURL={project.codeURL}
                                     />
