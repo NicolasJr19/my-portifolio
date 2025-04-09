@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
         {
             title: "My Portifolio",
             subtitle: "Abr 2025",
-            srcImg: {Portifolio}
+            srcImg: {Portifolio},
             description: "Meu portifolio pessoal, desenvolvido para divulgações!",
             technologies: "Technologies: Typescript, React, Material UI",
             websiteURL: "https://github.com/NicolasJr19/my-portifolio",
