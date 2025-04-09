@@ -71,20 +71,22 @@ const Hero: React.FC = () => {
                         <Grid size={{xs:12, md:7}}>
                             <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Jorge Nicolas</Typography>
                             <Typewriter text="I'm a software developer" delay={120} variant="h2" color="primary.contrastText"/>                            
-                            <Grid container  display="flex" justifyContent="center" spacing={3} pt={5}>
-                                <Grid size={{xs: 12, md: 4}} display="flex" justifyContent="center">
-                                    <StyledButton onClick={()=> handleDownload()}>
-                                        <DownloadIcon/>
-                                        <Typography>Download CV</Typography>
-                                    </StyledButton>
-                                </Grid>
-                                <Grid size={{xs: 12, md: 4}} display="flex" justifyContent="center">
-                                        <StyledButton onClick={()=> handleEmail()}>
-                                            <EmailIcon/>
-                                            <Typography>Contact Me</Typography>
+                            <Box mt={3}>
+                                <Grid container  display="flex" justifyContent="center" spacing={3}>
+                                    <Grid size={{xs: 10, md: 4}}>
+                                        <StyledButton onClick={()=> handleDownload()}>
+                                            <DownloadIcon/>
+                                            <Typography>Download CV</Typography>
                                         </StyledButton>
+                                    </Grid>
+                                    <Grid size={{xs: 10, md: 4}}>
+                                            <StyledButton onClick={()=> handleEmail()}>
+                                                <EmailIcon/>
+                                                <Typography>Contact Me</Typography>
+                                            </StyledButton>
+                                    </Grid>
                                 </Grid>
-                            </Grid>
+                            </Box>
                         </Grid>
                     </Grid>
                 </Container>
