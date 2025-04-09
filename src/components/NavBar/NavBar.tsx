@@ -95,8 +95,8 @@ export default function Navbar(){
                 <MenuItem onClick={()=> handleSmoothScroll("skills")}>
                     <StyledNavLink>Skills</StyledNavLink>
                 </MenuItem>
-                <MenuItem onClick={()=> handleSmoothScroll("project")}>
-                    <StyledNavLink>Project</StyledNavLink>
+                <MenuItem onClick={()=> handleSmoothScroll("projects")}>
+                    <StyledNavLink>Projects</StyledNavLink>
                 </MenuItem>
             </StyledDesktopToolbar>
         </AppBar>
