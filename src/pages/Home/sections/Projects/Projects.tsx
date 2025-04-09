@@ -3,7 +3,6 @@ import { Container, styled } from "@mui/material";
 import React from "react";
 import ProjectCard, { ProjectCardProps } from "../../../../components/ProjectCard/ProjectCard";
 import AnimationComponent from "../../../../components/AnimationComponet/AnimationComponent";
-import PortifolioImage from '../../../../assets/portifolio.png';
 
 const Projects: React.FC = () => {
     const StyledExperience = styled("div")(({theme})=>({
@@ -14,7 +13,7 @@ const Projects: React.FC = () => {
         {
             title: "My Portifolio",
             subtitle: "Abr 2025",
-            srcImg: {PortifolioImage}
+            srcImg: "/src/assets/images/portifolio.png"
             description: "Meu portifolio pessoal, desenvolvido para divulgações!",
             technologies: "Technologies: Typescript, React, Material UI",
             websiteURL: "https://github.com/NicolasJr19/my-portifolio",
