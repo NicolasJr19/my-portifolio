@@ -6,25 +6,30 @@ import StyledButton from "../../../../components/StyledButton/StyledButton";
 import theme from "../../../../theme";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
 import CV from "../../../../assets/pdfs/Curriculo.pdf"
+import Typewriter from "../../../../components/Typewriter/Typewriter"
+import React from "react";
 
-const Hero = () => {
+const Hero: React.FC = () => {
     const StyledHero = styled("div")(({theme})=>({
         backgroundColor: theme.palette.primary.main,
-        height: "100vh",
-        display: "flex",
-        alignItems:"center",
         [theme.breakpoints.up('xs')]:{ //<= mobile
-            paddingTop: "100px"
+            display: "block",
+            padding: "20px",
+            paddingTop: "100px",
+            paddingBottom: "40px"
         },
         [theme.breakpoints.up('md')]:{ //>=mobile
-            paddingTop: "0px"
-
+            display: "flex",
+            alignItems:"center",
+            height: "100vh",
+            paddingTop: "100px"
         }
     }))
     const StyledImg = styled("img")(()=>({
         width: "75%",
         border: `1px solid ${theme.palette.primary.contrastText}`,
-        borderRadius: "50%"
+        borderRadius: "50%",
+        position: "relative"
     }))
 
     const handleDownload = () => {
@@ -54,19 +59,18 @@ const Hero = () => {
                 <Container maxWidth="lg">
                     <Grid container spacing={2}>
                         <Grid size={{xs: 12, md: 5}}>
-                            <Box position="relative">
-                                <Box position="absolute" width="140%" top={-150} right={0}>
+                            <Box position="relative" pb={3}>
+                                <Box position="absolute" width="150%" top={-150} right={-90}>
                                     <AnimatedBackground></AnimatedBackground>
                                 </Box>
-                                <Box position={"relative"} textAlign="center" alignItems="center">
+                                <Box textAlign="center">
                                     <StyledImg src={Avatar}/>
                                 </Box>
                             </Box>
                         </Grid>
                         <Grid size={{xs:12, md:7}}>
                             <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Jorge Nicolas</Typography>
-                            <Typography color="primary.contrastText" variant="h2" textAlign="center">I'm a software developer</Typography>
-                            
+                            <Typewriter text="I'm a software developer" delay={120} variant="h2" color="primary.contrastText"/>                            
                             <Grid container  display="flex" justifyContent="center" spacing={3} pt={5}>
                                 <Grid size={{xs: 12, md: 4}} display="flex" justifyContent="center">
                                     <StyledButton onClick={()=> handleDownload()}>
