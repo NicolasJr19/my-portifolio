@@ -33,6 +33,9 @@ const About: React.FC = ()=>{
                                 <Typography textAlign="center" fontWeight={600}>Experience</Typography>
                                 <Typography textAlign="center">2+ months</Typography>
                                 <Typography textAlign="center">FullStack Developer Trainee</Typography>
+                                <hr/>
+                                <Typography textAlign="center">5+ years</Typography>
+                                <Typography textAlign="center">Junior Support Analyst</Typography>
                             </StyleCard>
                         </AnimationComponent>
                     </Grid>
@@ -42,7 +45,8 @@ const About: React.FC = ()=>{
                                 <SchoolIcon/>
                                 <Typography textAlign="center" fontWeight={600}>Education</Typography>
                                 <Typography textAlign="center">Technologist in Systems Analysis and Development</Typography>
-                                <Typography textAlign="center">Systems Development Technician</Typography>
+                                <hr/>
+                                <Typography textAlign="center">Technical Course in Systems Development</Typography>
                             </StyleCard>
                         </AnimationComponent>
                     </Grid>
