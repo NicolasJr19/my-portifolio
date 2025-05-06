@@ -8,6 +8,7 @@ import Agenda from "../../../../assets/images/agenda.png"
 import GamerStore from "../../../../assets/images/gamerStore.png"
 import Instalike from "../../../../assets/images/instalike.png"
 import Pizzaria from "../../../../assets/images/pizzaria.png"
+import ControleEstoque from "../../../../assets/images/estoque.png"
 
 
 const Projects: React.FC = () => {
@@ -64,6 +65,16 @@ const Projects: React.FC = () => {
             technologies: "Technologies: Typescript, Next, CSS, HTML, MongoDB",
             websiteURL: "https://github.com/NicolasJr19/Projeto_Alura",
             codeURL: "https://github.com/NicolasJr19/Projeto_Alura",
+        },
+
+        {
+            title: "Controle de Estoque",
+            subtitle: "Abr 2025",
+            srcImg: `${Instalike}`,
+            description: "Projeto de uma página para controle de estoque, com abas de movimentação de usuários, fornecedores, produtos e também tela de login, com verificação de token. Seguido planejamento do curso de Javascript do canal CFB Cursos",
+            technologies: "Technologies: Javascript, CSS, HTML, Node-red, SQL",
+            websiteURL: "https://github.com/NicolasJr19/ControleDeEstoque",
+            codeURL: "https://github.com/NicolasJr19/ControleDeEstoque",
         },
     ]
 
