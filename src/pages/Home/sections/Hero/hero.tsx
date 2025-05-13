@@ -46,8 +46,8 @@ const Hero: React.FC = () => {
 
     const handleEmail = () => {
         const emailAdress = 'nicolasjn22@gmail.com'
-        const subject = 'Subject'
-        const body = "Hello! I saw your portifolio..."
+        const subject = 'Assunto'
+        const body = "Olá! Acabei de ver seu portfólio..."
 
         const mailtoLink = `mailto:${emailAdress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
         window.open(mailtoLink)
