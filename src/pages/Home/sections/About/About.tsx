@@ -16,7 +16,7 @@ const About: React.FC = ()=>{
     }))
 
     const skillsSet = [
-        "Javascript", "Typescript", "React", "Next", "HTML", "CSS", "Java", "Material UI"
+        "Javascript", "Typescript", "React", "Next", "HTML", "CSS", "Java", "Material UI", "Node-RED", "Python", "SQL"
     ]
 
     return(
