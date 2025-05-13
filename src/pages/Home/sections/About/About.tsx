@@ -30,12 +30,12 @@ const About: React.FC = ()=>{
                         <AnimationComponent moveDirection="right">
                             <StyleCard variant="outlined">
                                 <WorkspacePremiumIcon/>
-                                <Typography textAlign="center" fontWeight={600}>Experiência</Typography>
+                                <Typography textAlign="center" fontWeight={600}>Experiências</Typography>
                                 <Typography textAlign="center">+2 Meses</Typography>
-                                <Typography textAlign="center">Estagiário FullStack</Typography>
+                                <Typography textAlign="center">Estagiário FullStack como Analista de Tecnologia</Typography>
                                 <hr/>
                                 <Typography textAlign="center">+5 Anos</Typography>
-                                <Typography textAlign="center">Analista de Suporte</Typography>
+                                <Typography textAlign="center">Analista de Suporte N1</Typography>
                             </StyleCard>
                         </AnimationComponent>
                     </Grid>
