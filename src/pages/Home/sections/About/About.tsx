@@ -30,12 +30,12 @@ const About: React.FC = ()=>{
                         <AnimationComponent moveDirection="right">
                             <StyleCard variant="outlined">
                                 <WorkspacePremiumIcon/>
-                                <Typography textAlign="center" fontWeight={600}>Experience</Typography>
-                                <Typography textAlign="center">2+ months</Typography>
-                                <Typography textAlign="center">FullStack Developer Trainee</Typography>
+                                <Typography textAlign="center" fontWeight={600}>Experiência</Typography>
+                                <Typography textAlign="center">+2 Meses</Typography>
+                                <Typography textAlign="center">Estagiário FullStack</Typography>
                                 <hr/>
-                                <Typography textAlign="center">5+ years</Typography>
-                                <Typography textAlign="center">Junior Support Analyst</Typography>
+                                <Typography textAlign="center">+5 Anos</Typography>
+                                <Typography textAlign="center">Analista de Suporte</Typography>
                             </StyleCard>
                         </AnimationComponent>
                     </Grid>
@@ -43,17 +43,17 @@ const About: React.FC = ()=>{
                         <AnimationComponent moveDirection="left">
                             <StyleCard variant="outlined">
                                 <SchoolIcon/>
-                                <Typography textAlign="center" fontWeight={600}>Education</Typography>
-                                <Typography textAlign="center">Technologist in Systems Analysis and Development</Typography>
+                                <Typography textAlign="center" fontWeight={600}>Formação</Typography>
+                                <Typography textAlign="center">Tecnólogo em Análise e Desenvolvimento de Sistemas</Typography>
                                 <hr/>
-                                <Typography textAlign="center">Technical Course in Systems Development</Typography>
+                                <Typography textAlign="center">Curso Técnico em Desenvolvimento de Sistemas</Typography>
                             </StyleCard>
                         </AnimationComponent>
                     </Grid>
                 </Grid>
                 <Box pb={1}>
                 <Typography>
-                    Tenho 23 anos e sou apaixonado por filmes, séries, HQs, games, música e futebol. Na música, toco guitarra e violão, arranho um pouco no teclado também.
+                    Tenho 23 anos e sou cristão, apaixonado por filmes, séries, HQs, games, música e futebol. Na música, toco guitarra e violão, arranho um pouco no teclado também.
                     Sou formado no ensino médio, tenho técnico em Desenvolvimento de Sistemas e atualmente estou cursando Análise e Desenvolvimento de Sistemas no ensino superior.
                 </Typography><br/>
                 <Typography>
