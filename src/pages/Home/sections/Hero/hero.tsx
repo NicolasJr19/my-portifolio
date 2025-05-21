@@ -77,7 +77,7 @@ const Hero: React.FC = () => {
                                     <Grid size={{xs: 10, md: 4}}>
                                         <StyledButton onClick={()=>window.open("https://github.com/NicolasJr19")}>
                                             <GitHubIcon/>
-                                            <Typography>Download CV</Typography>
+                                            <Typography>GitHub</Typography>
                                         </StyledButton>
                                     </Grid>
                                     <Grid size={{xs: 10, md: 4}}>
