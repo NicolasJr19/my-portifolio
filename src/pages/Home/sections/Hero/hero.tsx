@@ -1,6 +1,7 @@
 import { Box, Container, Grid, styled, Typography } from "@mui/material"
 import Avatar from "../../../../assets/images/avatar.jpg"
 import DownloadIcon from '@mui/icons-material/Download';
+import  GitHubIcon from "@mui/icons-material/GitHub"
 import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import theme from "../../../../theme";
@@ -73,6 +74,12 @@ const Hero: React.FC = () => {
                             <Typewriter text="I'm a software developer" delay={120} variant="h2" color="primary.contrastText"/>                            
                             <Box mt={3}>
                                 <Grid container  display="flex" justifyContent="center" spacing={3}>
+                                    <Grid size={{xs: 10, md: 4}}>
+                                        <StyledButton onClick={()=>window.open("https://github.com/NicolasJr19")}>
+                                            <GitHubIcon/>
+                                            <Typography>Download CV</Typography>
+                                        </StyledButton>
+                                    </Grid>
                                     <Grid size={{xs: 10, md: 4}}>
                                         <StyledButton onClick={()=> handleDownload()}>
                                             <DownloadIcon/>
