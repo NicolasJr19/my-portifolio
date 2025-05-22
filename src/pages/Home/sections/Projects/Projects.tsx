@@ -23,7 +23,7 @@ const Projects: React.FC = () => {
             srcImg: `${Portifolio}`,
             description: "Meu portifolio pessoal, desenvolvido para divulgações!",
             technologies: "Technologies: Typescript, React, Material UI",
-            websiteURL: "https://https://nicolasjr19.vercel.app/",
+            websiteURL: "https://nicolasjr19.vercel.app/",
             codeURL: "https://github.com/NicolasJr19/my-portifolio",
         },
 
