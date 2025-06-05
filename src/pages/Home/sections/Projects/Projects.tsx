@@ -9,6 +9,7 @@ import GamerStore from "../../../../assets/images/gamerStore.png"
 import Instalike from "../../../../assets/images/instalike.png"
 import Pizzaria from "../../../../assets/images/pizzaria.png"
 import ControleEstoque from "../../../../assets/images/controleestoque.png"
+import Tarefas from "../../../../assets/images/tarefas.png"
 
 
 const Projects: React.FC = () => {
@@ -38,13 +39,13 @@ const Projects: React.FC = () => {
         },
 
         {
-            title: "Pizzaria Proz",
-            subtitle: "Mar 2025 - Abr 2025",
-            srcImg: `${Pizzaria}`,
-            description: "Projeto inicial em HTML, CSS e Javascrip, sobre pizzaria no curso técnico na Proz Educação, realizado em conjunto com meu grupo de estudos.",
-            technologies: "Technologies: HTML, CSS, Javascript",
-            websiteURL: "https://github.com/NicolasJr19/PizzariaProz-Final",
-            codeURL: "https://github.com/NicolasJr19/PizzariaProz-Final",
+            title: "Lista de Tarefas",
+            subtitle: "Jun 2025 - Jun 2025",
+            srcImg: `${Tarefas}`,
+            description: "Projeto de uma lista de tarefas, com funcionalidades de adicionar, completar, excluir, listar, filtrar e ordenar",
+            technologies: "Technologies: React, CSS, Javascript",
+            websiteURL: "https://github.com/NicolasJr19/ListaTarefas",
+            codeURL: "https://github.com/NicolasJr19/ListaTarefas",
         },
 
         {
@@ -65,6 +66,15 @@ const Projects: React.FC = () => {
             technologies: "Technologies: Javascript, HTML, CSS, MySQL",
             websiteURL: "https://github.com/NicolasJr19/AgendaJS",
             codeURL: "https://github.com/NicolasJr19/AgendaJS",
+        },
+        {
+            title: "Pizzaria Proz",
+            subtitle: "Mar 2025 - Abr 2025",
+            srcImg: `${Pizzaria}`,
+            description: "Projeto inicial em HTML, CSS e Javascrip, sobre pizzaria no curso técnico na Proz Educação, realizado em conjunto com meu grupo de estudos.",
+            technologies: "Technologies: HTML, CSS, Javascript",
+            websiteURL: "https://github.com/NicolasJr19/PizzariaProz-Final",
+            codeURL: "https://github.com/NicolasJr19/PizzariaProz-Final",
         },
 
         {
