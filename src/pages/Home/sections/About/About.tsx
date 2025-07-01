@@ -53,19 +53,18 @@ const About: React.FC = ()=>{
                 </Grid>
                 <Box pb={1}>
                 <Typography>
-                    Tenho 23 anos e sou cristão, apaixonado por filmes, séries, HQs, games, música e futebol. Na música, toco guitarra e violão, arranho um pouco no teclado também.
-                    Sou formado no ensino médio, tenho técnico em Desenvolvimento de Sistemas e atualmente estou cursando Análise e Desenvolvimento de Sistemas no ensino superior.
+                    Sou apaixonado por tecnologia, desenvolvimento de software e inovação. Tenho 23 anos, sou cristão e, nas horas vagas, me envolvo com música — toco guitarra, violão e me aventuro no teclado.
+
+Minha jornada com TI começou cedo: aos 13 anos fiz meu primeiro curso de criação de aplicativos e jogos, o que despertou uma curiosidade que só cresceu desde então. Sou formado em Análise e Desenvolvimento de Sistemas, com técnico em Desenvolvimento de Sistemas, o que reforçou minha base sólida em lógica, programação e arquitetura de software.
                 </Typography><br/>
                 <Typography>
-                    Já trabalhei como jovem aprendiz em supermercados e também com desenho mecânico, fazendo cursos junto com essas experiências. 
-                    Meu primeiro contato com desenvolvimento foi aos 13 anos, num curso rápido de criação de aplicativos e jogos pelo Cebrac — e desde então, 
-                    a curiosidade só cresceu.
+                    Já atuei como jovem aprendiz e também com desenho mecânico, sempre conciliando estudos e capacitação. Em março de 2020, entrei na Stefanini como estagiário, fui efetivado em 2022 e permaneci até março de 2025 como analista de suporte N1, aprimorando minha capacidade de resolver problemas, lidar com usuários e entender processos empresariais. Em seguida, iniciei um estágio em tecnologia no SENAI Centro 4.0 (Contagem/MG), onde trabalhei com JavaScript, React, Next, TypeScript, SQL e participei ativamente de documentações técnicas, reuniões e levantamento de requisitos — estágio que concluí ao finalizar meu curso superior.
                 </Typography><br/>
                 <Typography>
                     Comecei como estagiário na Stefanini em março de 2020, fui efetivado em 2022 e fiquei até março de 2025 como analista de suporte N1. Depois, em março de 2025, comecei como estagiário de tecnologia no SENAI Centro 4.0 (Contagem/MG), 
                     trabalhando com JavaScript, React, Next, TypeScript, SQL e outras tecnologias. Também dou suporte com documentações, reuniões e levantamento de requisitos.                </Typography><br/>
                 <Typography>
-                    Meu foco é seguir carreira na área de desenvolvimento de software, mas quem sabe mais pra frente também não encaro uma faculdade de música? 😄
+                    Hoje, meu foco é evoluir na área de desenvolvimento de software, explorando tecnologias modernas e participando de projetos desafiadores. No futuro, quem sabe não volto às salas de aula, mas dessa vez para estudar música e unir minhas duas paixões.
                 </Typography>
                 </Box>
                 <hr/>
