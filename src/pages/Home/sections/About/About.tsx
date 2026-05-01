@@ -57,12 +57,13 @@ const About: React.FC = ()=>{
 
 Minha jornada com TI começou cedo: aos 13 anos fiz meu primeiro curso de criação de aplicativos e jogos, o que despertou uma curiosidade que só cresceu desde então. Sou formado em Análise e Desenvolvimento de Sistemas, com técnico em Desenvolvimento de Sistemas, o que reforçou minha base sólida em lógica, programação e arquitetura de software.                </Typography><br/>
                 <Typography>
-Já atuei como jovem aprendiz e também com desenho mecânico, sempre conciliando estudos e capacitação. Em março de 2020, entrei na Stefanini como estagiário, fui efetivado em 2022 e permaneci até março de 2025 como analista de suporte N1, aprimorando minha capacidade de resolver problemas, lidar com usuários e entender processos empresariais. Em seguida, iniciei um estágio em tecnologia no SENAI Centro 4.0 (Contagem/MG), onde trabalhei com JavaScript, React, Next, TypeScript, SQL e participei ativamente de documentações técnicas, reuniões e levantamento de requisitos — estágio que concluí ao finalizar meu curso superior. Atualmente estou trabalhando como analista de TI na Keevo Softwares, onde atuo com suporte técnico específico para as aplicações desenvolvidas, envolvendo suporte com banco de dados, rotinas específicas.                </Typography><br/>
+Já atuei como jovem aprendiz e também com desenho mecânico, sempre conciliando estudos e capacitação. Em março de 2020, entrei na Stefanini como estagiário, fui efetivado em 2022 e permaneci até março de 2025 como analista de suporte N1, aprimorando minha capacidade de resolver problemas, lidar com usuários e entender processos empresariais.</Typography><br/>
+                <Typography>
+                    Em seguida, iniciei um estágio em tecnologia no SENAI Centro 4.0 (Contagem/MG), onde trabalhei com JavaScript, React, Next, TypeScript, SQL e participei ativamente de documentações técnicas, reuniões e levantamento de requisitos — estágio que concluí ao finalizar meu curso superior. Atualmente estou trabalhando como analista de TI na Keevo Softwares, onde atuo com suporte técnico específico para as aplicações desenvolvidas, envolvendo suporte com banco de dados, rotinas específicas.                
+                </Typography><br/>
                 <Typography>
                 Hoje, meu foco é evoluir na área de desenvolvimento de software, explorando tecnologias modernas e participando de projetos desafiadores. No futuro, quem sabe não volto às salas de aula, mas dessa vez para estudar música e unir minhas duas paixões.
-                </Typography><br/>
-                //<Typography>
-                //</Typography>
+                </Typography>
                 </Box>
                 <hr/>
                 <Box id="skills" pt={1} mb={3}>
